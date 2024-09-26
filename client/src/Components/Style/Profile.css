@@ -1,0 +1,23 @@
+.Pbox {
+  background: #fff;
+  border-radius: 8px;
+  background: linear-gradient(#fffeff, #f5f8f9);
+  width: 60vw;
+  height: 90vh;
+}
+.Add button {
+  width: 20%;
+  height: 45px;
+
+  margin-top: 45%;
+  margin-left: 20%;
+  background: linear-gradient(#e5ebf0, #b9d7ff);
+  outline: none;
+  border: 3px solid #02020252;
+  border-radius: 19px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  color: #040404;
+  font-weight: 600;
+}

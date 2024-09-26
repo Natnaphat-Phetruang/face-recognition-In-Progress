@@ -1,0 +1,410 @@
+/* |*******************************Login Form *******************************| */
+.Box {
+  width: 420px;
+  background: #383838;
+  /* backdrop-filter: blur(20px); */
+  color: #3840b2fc;
+  box-shadow: 0 0 40px #fff;
+  border-radius: 15px;
+  border: 3px solid #d0d8c4f6;
+  padding: 30px 40px;
+}
+.Box h1 {
+  text-align: center;
+  height: 12vh;
+  font-size: 39px;
+}
+.underline_top {
+  width: 61px;
+  height: 6px;
+  background: #fffffffc;
+  border-radius: 9px;
+  margin: 0 auto;
+}
+.Box .input-box {
+  position: relative;
+  width: 100%;
+  height: 60px;
+
+  margin: 36px 0px;
+  box-shadow: 0 0 px rgba(0, 0, 0, 1);
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-radius: 9px;
+  background: transparent;
+  box-shadow: 0 0 20px rgb(253, 253, 253);
+  border: none;
+  border: 2px solid #b6c6e0f6;
+  outline: none;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  color: #ffff;
+}
+.input-box .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+.Box .below {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.below label input {
+  accent-color: #fff;
+  margin: right 4px;
+}
+.below a {
+  color: #91c9f8;
+  text-decoration: none;
+  font-weight: 600;
+}
+.below a:hover {
+  text-decoration: underline;
+  color: #9e8dff;
+}
+.Box button {
+  width: 80%;
+  height: 45px;
+  background: linear-gradient(#105290, #5380bc);
+  outline: none;
+  border: 3px solid #c7cae0f6;
+  border-radius: 15px;
+  box-shadow: 0 0 17px rgb(239, 237, 237);
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  color: #040404;
+  font-weight: 600;
+
+  margin: 0 auto; /* จัดกึ่งกลางในแนวนอน */
+  display: block; /* ปรับให้ปุ่มเต็มพื้นที่บรรทัด */
+}
+.Box .register-link {
+  font-size: 12;
+  text-align: center;
+  margin-top: 20px 0 15px;
+}
+
+.register-link {
+  color: #fff;
+  font-size: 13;
+  text-decoration: none;
+  font-weight: 60;
+
+  margin-top: 1.5rem;
+}
+.register-link a {
+  color: #000000;
+  font-size: 14;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link a:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
+.input-box input:focus {
+  border: 3px solid #a9d5fc;
+}
+
+/* |*******************************Register Form *******************************| */
+
+.Container {
+  display: grid;
+  gap: 20px;
+  width: 520px;
+
+  background: transparent;
+  backdrop-filter: blur(20px);
+  color: #fff;
+  box-shadow: 0 0 40px rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 3px solid #d0d8c4f6;
+  padding: 30px 40px;
+}
+
+.inputname input {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-radius: 9px;
+  background: transparent;
+  box-shadow: 0 0 20px rgb(253, 253, 253);
+  border: none;
+  border: 2px solid #b6c6e0f6;
+  outline: none;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+}
+
+.inputn input {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-radius: 9px;
+  background: transparent;
+  box-shadow: 0 0 20px rgb(253, 253, 253);
+  border: none;
+  border: 2px solid #b6c6e0f6;
+  outline: none;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+}
+/* เมื่อ input ถูก focus ให้ border เปลี่ยนสี */
+.inputname input:focus {
+  border: 3px solid #7ab1e0;
+}
+
+.inputname:nth-child(5) {
+  grid-column: span 2; /* Email ครอบคลุมทั้ง 2 คอลัมน์ */
+}
+.inputname:nth-child(6) {
+  grid-column: span 2; /* Password ครอบคลุมทั้ง 2 คอลัมน์ */
+}
+.inputname:nth-child(6) {
+  grid-column: span 2; /* Password ครอบคลุมทั้ง 2 คอลัมน์ */
+}
+.butto:nth-child(7) {
+  grid-column: span 2;
+}
+.regis-link:nth-child(7) {
+  grid-column: span 2;
+}
+.regis-link:nth-child(8) {
+  grid-column: span 2;
+}
+
+.inputn input:focus {
+  border: 3px solid #7ab1e0;
+}
+
+.inputn:nth-child(4) {
+  grid-column: span 2; /* Email ครอบคลุมทั้ง 2 คอลัมน์ */
+}
+.inputn:nth-child(5) {
+  grid-column: span 2; /* Email ครอบคลุมทั้ง 2 คอลัมน์ */
+}
+.inputn:nth-child(6) {
+  grid-column: span 2; /* Password ครอบคลุมทั้ง 2 คอลัมน์ */
+}
+.inputn:nth-child(7) {
+  grid-column: span 2; /* Password ครอบคลุมทั้ง 2 คอลัมน์ */
+}
+
+.butto button {
+  width: 80%;
+  height: 45px;
+  background: linear-gradient(#105290, #5380bc);
+  outline: none;
+  border: 3px solid #c7cae0f6;
+  border-radius: 15px;
+  box-shadow: 0 0 17px rgb(239, 237, 237);
+  cursor: pointer;
+  font-size: 16px;
+  color: #040404;
+  font-weight: 600;
+  position: relative;
+  top: 30%;
+  left: 11%;
+  transition: all 0.3s ease;
+}
+.Container h1 {
+  height: 17vh;
+  font-size: 39px;
+  top: 40%;
+  left: 170px;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+.inputname input::placeholder {
+  color: #ffff;
+}
+.underline_Top {
+  width: 61px;
+  height: 6px;
+  background: #fffffffc;
+  border-radius: 9px;
+  top: 70%;
+  left: 0px;
+  position: relative;
+  transform: translate(-80%, -50%);
+}
+.Container .regis-link {
+  font-size: 12;
+  text-align: center;
+}
+
+.regis-link {
+  color: #fff;
+  font-size: 13;
+  text-decoration: none;
+  font-weight: 60;
+
+  margin-top: 1.5rem;
+}
+.regis-link a {
+  color: #9bc1d5;
+  font-size: 14;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.regis-link a:hover {
+  text-decoration: underline;
+  color: #bc7dff;
+}
+.button:active {
+  background-color: #0f1317; /* สีพื้นหลังเมื่อคลิก */
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translate(1px, 1px); /* การเคลื่อนไหวเมื่อคลิก */
+}
+
+/* |******************************* ForgetPass page *******************************| */
+
+.verification-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 40px rgba(53, 55, 64, 0.1);
+  text-align: center;
+}
+
+.verification-container h2 {
+  margin-bottom: 3rem;
+}
+
+.otp-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.otp-input {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+}
+
+.verify-button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.verify-button:hover {
+  background-color: #0056b3;
+}
+
+.resend-text {
+  margin-top: 3rem;
+  font-size: 14px;
+}
+
+.resend-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resend-text a:hover {
+  text-decoration: underline;
+}
+
+/* |******************************* Resetpassword Page *******************************| */
+.password-container {
+  max-width: 400px;
+
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.password-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.password-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input-group label {
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  padding: 0.75rem;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.terms-conditions {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.terms-conditions input {
+  margin-right: 0.5rem;
+}
+
+.terms-conditions a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.terms-conditions a:hover {
+  text-decoration: underline;
+}
+
+.reset-button {
+  padding: 0.75rem;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #0056b3;
+}
